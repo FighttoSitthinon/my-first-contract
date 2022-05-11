@@ -18,4 +18,5 @@ Migrate => ```truffle migrate```
 ## ประกาศ ```view``` ใน function
 เป็นการที่จะอ่านข้อมูลโดยที่จะไม่เขียนลงใน Block (ไม่ประกาศจะเป็นการ run transection) เป็นแค่การอ่านข้อมูล (ไม่เสียค่า Gas)
 
-
+- constructor ทำงานเมื่อ deploy
+- การ return ไม่สามารถ return object ได้ ต้อง return เฉพาะ type ไปเลย
