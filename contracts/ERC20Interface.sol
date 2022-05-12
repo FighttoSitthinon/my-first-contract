@@ -10,6 +10,6 @@ interface ERC20Interface {
     function approve(address spender, uint tokens) external returns (bool success);
     function transferFrom(address from, address to, uint tokens) external returns (bool success);
 
-    event Transfer(address indexed from, address indexed to, uint tokens);
+    event Transfer(address indexed from, address indexed to, uint tokens); // event คงแนว web socket แหละ
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
 }

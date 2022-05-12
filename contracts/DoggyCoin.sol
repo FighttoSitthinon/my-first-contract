@@ -29,10 +29,11 @@ contract DoggyCoin is ERC20Interface {
 
     // Transfer tokens from msg.sender to a specified address
      function  transfer(address _to, uint256 _value) public override returns (bool success)  {
-        require(balances[msg.sender] >= _value,"Insufficient funds for transfer source.");
-        balances[msg.sender] -= _value;
-        balances[_to] += _value;
-        emit Transfer(msg.sender, _to, _value); //solhint-disable-line indent, no-unused-vars
+        require(balances[msg.sender] >= _value,"Insufficient funds for transfer source."); // ตรวจสอบว่าเงินพอไหม
+        balances[msg.sender] -= _value; // ลดค่าฝ่ายโอน
+        balances[_to] += _value; // เพิ่มค่าฝ่ายที่รับ
+        // emit เหมือนเป็น datatype เพื่อไป trigger event และส่งข้อมูลไป client คิดว่าคงคล้ายๆกับ web socket แหละ
+        emit Transfer(msg.sender, _to, _value); // solhint-disable-line indent, no-unused-vars
         return true;
     }
 
