@@ -12,7 +12,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"hello\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/HelloWorld.sol\":\"HelloWorld\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/HelloWorld.sol\":{\"keccak256\":\"0xc45ddce07643e0a7a9724737bdf306721c665d3fcdcb550f0cfbf23d6655ecda\",\"urls\":[\"bzz-raw://fbafc11f7d5ce8309fff57b06d9da67aeaa582db8d7b381c1de33e2a1931a6e8\",\"dweb:/ipfs/QmUDTL98wh3SV5ub8j5dEMLgjbDWrLJYB66bX5UK39EQxH\"]}},\"version\":1}",
@@ -1020,12 +1021,13 @@
     "1337": {
       "events": {},
       "links": {},
-      "address": "0xc33F8FcE96864dca67b4717B2A036D637F44B6C8",
-      "transactionHash": "0x85d2d5b7a8fa8a805be4b49336d1f3de6a245642f3114209540fd73ab72013fc"
+      "address": "0x724bF79EbFa3e45047B2A26AfE1B9AAf793fCe07",
+      "transactionHash": "0xb6f4911cf03fc463df84cfb78e695de107081400f7318d9e0fe69a8bf91681eb"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-05-12T05:02:05.393Z",
+  "updatedAt": "2022-05-12T06:37:44.895Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
